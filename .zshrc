@@ -28,4 +28,4 @@ alias cbr="cargo build --release"
 alias cr="cargo run"
 alias crr="cargo run --release"
 
-neofetch
+fastfetch
