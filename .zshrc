@@ -11,6 +11,10 @@ AGNOSTER_PROMPT_SEGMENTS=(
 setopt AUTO_CD
 setopt PROMPT_SUBST
 
+# Auto-Completion
+autoload -Uz compinit
+compinit
+
 # Plugins
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
